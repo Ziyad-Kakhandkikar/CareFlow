@@ -1,7 +1,0 @@
-Doctor button first
-Home
-Services
-Doctors 
-Appointment of Doctors (new file)
-image of appointment 
-2 row  

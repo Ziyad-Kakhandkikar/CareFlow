@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="mt-3">
+    <tr>
+        
+        
+        <div class="d-flex flex-row">
+            <td colspan="2"><img src="./images/logo.png" class="m-auto"></td>
+        <div class="d-flex flex-column m-auto">
+            <td colspan="2">
+            <p><b>Monday - Friday 08:00-19:00</b></p>
+            <p>Saturday and Sunday - CLOSED</p>
+            </td>
+        </div>
+        <div class="d-flex flex-column m-auto">
+        <td colspan="2">
+        <p><b>+91 9746 7589 65</b></p>
+        Office@medicare.com
+        </td>
+        </div>
+        <div class="d-flex flex-column m-auto">
+        <td colspan="2">
+        <p><b>27th Avenue</b></p>
+        <p>Tokyo, 3XE</p>
+        </td>
+        </div>
+    </div>
+        </tr>
+    </div>    
+    <hr style="border-width: 4px; border-style: solid;">
+    <div class="container mt-5" style="height: 100vh; width:100vw;">
+        <div class="row d-flex flex-row justify-content-center">
+        <div class="col-6 d-flex flex-column justify-content-center">
+        <h2 class="ml-5">Login</h2>
+        <form action="login.php" method="post" class="">
+            <label for="username">Username:</label><br>
+            <input class="barlog" type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label><br>            
+            <input class="barlog" type="password" id="password" name="password" required><br><br>
+            <div class="ml-4">          
+            <button class="btn btn-primary mr-4"><a style="color:white;" href="Doctorsweb.html">Doctor</a></button>
+            <button class="btn btn-primary"><a style="color:white;" href="./index.html" onclick="display('sectionApnt2')">Patient</a></button>
+            </div>
+        </form>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

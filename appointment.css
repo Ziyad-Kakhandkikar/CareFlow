@@ -1,0 +1,9 @@
+.appointment-bg{
+    background-image: url("https://res.cloudinary.com/dxi9ymbzu/image/upload/v1722857180/banner3_ughngt.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+.appointment-head{
+    font-size: 15px;
+}

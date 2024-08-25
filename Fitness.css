@@ -1,0 +1,19 @@
+.main-heading{
+    text-align : center;
+    font-family: 'Zapfino';
+    font-weight: bold;
+}
+.main-para{
+    text-align: center;
+    font-family: Zapfino;
+    font-size: 20px;
+}
+.exercise{
+    width: 60vw; 
+}
+.exercise-button{
+    width: 18vw;
+}
+.diet{
+    width: 60vw;
+}
